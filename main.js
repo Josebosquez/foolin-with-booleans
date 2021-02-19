@@ -27,6 +27,14 @@ function isFailing (number){
   return number < 60;
 }
 
+function isAcing (gr){
+  return gr > 92;
+}
+
+function isStudent(str){
+  return str = str == "student";
+}
+
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
