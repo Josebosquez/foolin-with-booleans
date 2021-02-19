@@ -52,6 +52,11 @@ function areDifferentPeople (diff, people){
   return areThey;
 }
 
+function isMiddleSchoolTeacher (mst, anum){
+  return mst === "teacher" && anum >= "6" && anum <= "8";
+}
+
+
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
