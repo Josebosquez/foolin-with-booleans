@@ -2,8 +2,13 @@
  * YOUR CODE BELOW! *
  ********************/
 
+function moreThan5 (num){
+  return num > 5;
+}
 
-
+function isNewTopScore (score, top1){
+  return score > top1;
+}
 
 
 /********************************************************************************************
