@@ -43,6 +43,15 @@ function isAdmin (strin){
   return strin = strin === "admin";
 }
 
+function isElementary (string){
+  return string === "elementary";
+}
+
+function areDifferentPeople (diff, people){
+  areThey = diff !== people
+  return areThey;
+}
+
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
