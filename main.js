@@ -10,6 +10,16 @@ function isNewTopScore (score, top1){
   return score > top1;
 }
 
+function isInDanger (grd){
+  return grd >= 60 && grd <= 71;
+}
+
+
+function isCoasting (numb){
+  return numb >= 72 && numb <= 83;
+}
+
+
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
