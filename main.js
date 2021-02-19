@@ -56,6 +56,13 @@ function isMiddleSchoolTeacher (mst, anum){
   return mst === "teacher" && anum >= "6" && anum <= "8";
 }
 
+function notAnElementarySchoolAdministrator (elementary, administrator){
+  const isNotTheSame = elementary !== "elementary" || administrator !== "admin";
+  return isNotTheSame;
+}
+
+
+
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
