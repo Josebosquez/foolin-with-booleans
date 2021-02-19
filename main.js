@@ -35,6 +35,14 @@ function isStudent(str){
   return str = str == "student";
 }
 
+function isTeacher (stri){
+  return stri === "teacher";
+}
+
+function isAdmin (strin){
+  return strin = strin === "admin";
+}
+
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
