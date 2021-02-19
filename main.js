@@ -19,7 +19,13 @@ function isCoasting (numb){
   return numb >= 72 && numb <= 83;
 }
 
+function isSucceeding (numbe){
+  return numbe >= 84 && numbe <= 92;
+}
 
+function isFailing (number){
+  return number < 60;
+}
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
